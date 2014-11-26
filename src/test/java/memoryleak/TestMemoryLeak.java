@@ -17,12 +17,8 @@ public class TestMemoryLeak extends TestCase {
 	 * 
 	 */
 	@Test
-	public void testMemoryLeak(){
-		
-		Memory.getMemory();
+	public void testMemoryLeak() {
 		MemoryLeak.startMemoryLeak();
-		Memory.getMemory();
-		
 	}
 	
 }
